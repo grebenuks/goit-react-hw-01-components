@@ -4,8 +4,8 @@ import styles from '../Transactions/TransactionHistory.module.css';
 
 export function TransactionHistory({ items }) {
   return (
-    <table class={styles.transactionHistory}>
-      <thead class={styles.head}>
+    <table className={styles.transactionHistory}>
+      <thead className={styles.head}>
         <tr>
           <th>Type</th>
           <th>Amount</th>
